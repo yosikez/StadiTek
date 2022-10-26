@@ -1,0 +1,53 @@
+@font-face {
+    font-family: pulang;
+    src: url(Pulang.ttf);
+}
+
+body {
+    background-image: url('bg2.jpg');
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 100px;
+}
+
+td {
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+    text-align: middle;
+    font-family: pulang;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.endgame {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 25px;
+    background-color: white;
+    color: #333;
+    font-family: pulang;
+}
+
+button {
+    margin-top: 100px;
+    border: 1x solid white;
+    font-family: pulang;
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+}
